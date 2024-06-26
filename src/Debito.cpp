@@ -31,17 +31,14 @@ void Debito::setValorDebito(float v) {
     this->valorDebito = v;
 }
 
-string Debito::getNome() {
+string Debito::getNomeDebito() {
     return this->nome;
 }
 
-void Debito::setNome(string n) {
+void Debito::setNomeDebito(string n) {
     this->nome = n;
 }
 
-Saldo Debito::getDebitoAssociado() {
-    return this->saldoAssociado;
-}
 
 void Debito::setDebitoAssociado(Saldo& s) {
     float novoSaldo = s.getValor() - this->valorDebito;

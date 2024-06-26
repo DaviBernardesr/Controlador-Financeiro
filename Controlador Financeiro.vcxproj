@@ -19,10 +19,12 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="include\Credito.h" />
     <ClInclude Include="include\Debito.h" />
     <ClInclude Include="include\Saldo.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="src\Credito.cpp" />
     <ClCompile Include="src\Debito.cpp" />
     <ClCompile Include="src\Main.cpp" />
     <ClCompile Include="src\Saldo.cpp" />
